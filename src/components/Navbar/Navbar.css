@@ -1,0 +1,99 @@
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.navbar_container img{
+    height: 2.5rem;
+}
+
+.navlinks{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.navlinks li{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.contactUs_btn:hover{
+    transform: scale(1.07);
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks li img{
+    height: 13px
+}
+
+.open_menu{
+    display: none;
+}
+
+.open_menu img{
+    height: 25px;
+}
+
+.close_menu {
+    display: none;
+}
+
+/* <--- media queies ---> */
+
+@media (max-width:1000px){
+    .navlinks{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f0016;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 250px;
+    padding:2rem 2.5rem;
+    z-index: 2;
+    transition: right 0.3s;
+}
+
+    .hide_menu{
+        right: -370px;
+    }
+
+    #contactus_btn{
+        display: none;
+    }
+
+    .menu{
+        text-align: right;
+    }
+
+    .menu img{
+        height: 25px;
+    }
+
+    .close_menu{
+        display: inline;
+    }
+
+    .open_menu{
+        display: inline;
+    }
+
+    .navlinks li{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+}

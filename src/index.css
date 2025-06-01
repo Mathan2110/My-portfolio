@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 10vw;
+    background-color:rgba(0, 0, 0, 0.92);
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+
+button{
+    padding: 1rem 1.5rem;
+    border-radius: 40px;
+    border: none;
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+/* <--- Media queries ---> */
+@media (max-width:1000px){
+    body{
+    margin: 0 6vw;
+}
+
+button{
+    padding: 0.7rem 0.7rem;
+    font-size: 14px;
+}
+}
