@@ -45,7 +45,7 @@ const contact = () => {
                     Feel free to reach out to me about anything you'd like me to work on — I'm always happy to connect. You can contact me anytime.</p>
                 <p><img src={mail_icon} alt="" />mathansenthilkumar10@gmail.com</p>
                 <p><img src={call_icon} alt="" />+91 6385899817</p>
-                <p><img src={location_icon} alt="" />Chennai</p>
+                <p><img src={location_icon} alt="" />Madurai</p>
             </div>
             <div className="contact_right">
                 <form action="submit" className='contact_form' onSubmit={onSubmit}>
